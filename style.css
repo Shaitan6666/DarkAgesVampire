@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  background: #111;
+  color: #d4b46a;
+  font-family: "Georgia", serif;
+  padding-bottom: 70px;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem 0;
+  color: #b33;
+  letter-spacing: 2px;
+}
+
+.title span {
+  color: #d4b46a;
+  font-size: 0.8em;
+}
+
+.block {
+  padding: 1rem;
+  border-bottom: 1px solid #333;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.dots {
+  display: flex;
+  gap: 4px;
+}
+
+.dots span {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 1px solid #d4b46a;
+}
+
+.dots span.filled {
+  background: #b33;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #222;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+  border-top: 1px solid #444;
+}
+
+.bottom-nav button {
+  background: none;
+  border: none;
+  color: #d4b46a;
+  font-size: 1rem;
+}
+
+.list {
+  padding: 1rem;
+}
+
+.char-item {
+  background: #222;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #444;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #d4b46a;
+}
+
+.char-item .name {
+  font-size: 1.2rem;
+}
+
+.char-item .delete {
+  color: #b33;
+  font-size: 1.4rem;
+  display: none;
+}
+
+.char-item.hold .delete {
+  display: block;
+}
+
+.new-btn {
+  width: 100%;
+  padding: 1rem;
+  background: #b33;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

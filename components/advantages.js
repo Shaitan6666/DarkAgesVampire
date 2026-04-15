@@ -123,5 +123,5 @@ export function renderAbilities(root, charId, character) {
   root.appendChild(blockKnow);
 
   // XP panel
-  renderXpPanel(root);
+  renderXpPanel(root, charId, character);
 }

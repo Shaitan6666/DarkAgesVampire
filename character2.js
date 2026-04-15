@@ -6,6 +6,8 @@ import { renderSheet } from "./components/sheet.js";
 import { renderAbilities } from "./components/abilities.js";
 import { renderAdvantages } from "./components/advantages.js";
 import { renderTraits } from "./components/traits.js";
+import { renderXpPanel } from "./components/xp.js";
+
 
 // Import navigation setup
 import { setupNavigation } from "./nav.js";

@@ -54,7 +54,7 @@ function renderList() {
 // Create new character
 newBtn.addEventListener("click", () => {
   const id = createCharacter();
-  window.location.href = `character.html?id=${id}`;
+  window.location.href = `char.html?id=${id}`;
 });
 
 // Initial render

@@ -191,5 +191,5 @@ export function renderSheet(root, charId, character) {
   // -------------------------
   // XP PANEL
   // -------------------------
-  renderXpPanel(root);
+  renderXpPanel(root, charId, character);
 }

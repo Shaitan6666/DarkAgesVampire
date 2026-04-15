@@ -27,7 +27,7 @@ function renderList() {
 
     // Tap → open character
     item.addEventListener("click", () => {
-      window.location.href = `character.html?id=${char.id}`;
+      window.location.href = `char.html?id=${char.id}`;
     });
 
     // Hold → show delete

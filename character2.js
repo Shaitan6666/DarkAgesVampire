@@ -8,7 +8,7 @@ import { renderAdvantages } from "./components/advantages.js";
 import { renderTraits } from "./components/traits.js";
 
 // Import navigation setup
-import { setupNavigation } from "./components/nav.js";
+import { setupNavigation } from "./nav.js";
 
 // Read character ID from URL
 const params = new URLSearchParams(window.location.search);
